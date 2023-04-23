@@ -1,0 +1,26 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "demo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client":"npm start --prefix View",
+    "server":"nodemon Assignment/demo.js",
+    "start": "concurrently \"npm run client\" \"npm run server\""
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "concurrently": "^8.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "generate-safe-id": "^1.0.3",
+    "nodemon": "^2.0.22",
+    "shortid": "^2.2.16",
+    "uuid": "^9.0.0"
+  }
+}
