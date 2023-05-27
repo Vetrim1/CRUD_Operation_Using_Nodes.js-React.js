@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "client":"npm start --prefix View",
-    "server":"nodemon Assignment/demo.js",
-    "start": "concurrently \"npm run client\" \"npm run server\""
+    "start":"nodemon Assignment/demo.js",
+    "dev": "concurrently \"npm run client\" \"npm run server\""
 
   },
   "keywords": [],
